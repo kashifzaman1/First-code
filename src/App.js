@@ -59,7 +59,7 @@ function App() {
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="text-xl">Rs 800/month</span>
+    <span class="text-xl">Rs 800/month with discount</span>
   </div>
 </div>
 
