@@ -8,7 +8,7 @@ function App() {
     <div id="hero" class="container-fluid mb-2 p-0 mx-0 flex flex-col">
         <div class="bg-image  bg-[url('img.jpg')] bg-cover relative top-0 bottom-0 h-screen ">
         <div class="container h-screen bg-gradient-to-b from-black via-transparent to-black ">
-            <div class="container flex mx-auto px-40 pt-6 grid grid-cols-12">
+            <div class="container mx-auto px-40 pt-6 grid grid-cols-12">
                 <div class="text-red-600 col-span-4 text-2xl">
                     <span>Netflix</span>
                 </div>
@@ -59,7 +59,7 @@ function App() {
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="text-xl">Rs 800/month with discount</span>
+    <span class="text-xl">Rs 800/month</span>
   </div>
 </div>
 
@@ -124,20 +124,20 @@ function App() {
 
 </div>
 
-    <div class="container ml-40 text-white mt-10">
+    <div class="container w-fit ml-40 text-white mt-10">
     <span class="text-2xl font-bold">Get More From Your Membership</span>
     <div class=" mt-4 w-3/4 h-96 bg-gradient-to-r from-pink-900 to-purple-950 rounded-xl flex  overflow-hidden">
-        <div class="h-fit w-3/4 py-3.5 pl-10 my-auto">
+        <div class="h-fit w-5/6 py-3.5 pl-10 my-auto">
             <span class="text-3xl font-medium">Mobile games now included in <br/>every plan</span>
             <p>No ads, extra fees, or in-app purchases. Enjoy unlimited access to a growing <br/>catalog of popular and exclusive games.</p>
         </div>
-        <div class="relative -right-44 -top-16">
-            <img src='games.webp'/>
+        <div>
+            <img src='games.webp' class="relative left-40 -top-14 "/>
             </div>
     </div>
     </div>
     
-    <div class="container mt-10 text-white ml-40">
+    <div class="container w-fit mt-10 text-white ml-40">
     <span class="text-2xl font-bold">More reasons to join</span>
         <div class="flex">
         <div
@@ -166,9 +166,9 @@ function App() {
         <h1 class="text-white font-bold text-2xl py-4 ml-40">Frequently Asked Questions</h1>
         <div class="ml-40 w-2/3 text-2xl">
     <div class="divide-y text-white divide-gray-100">
-        <details class="group bg-stone-700 mb-2">
+        <details class="group bg-zinc-800 mb-2 p-4 hover:bg-zinc-700">
             <summary
-                class="flex cursor-pointer list-none items-center justify-between py-4 text-2xl font-medium text-secondary-900 group-open:text-primary-500">
+                class="flex cursor-pointer list-none items-center justify-between py-4 text-2xl font-medium text-secondary-900 group-open:text-primary-500 ">
                 What is Netflix?
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -185,7 +185,7 @@ function App() {
 
 You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</div>
         </details>
-        <details class="group bg-stone-700 mb-2 border-none">
+        <details class="group bg-zinc-800 mb-2 p-4 border-none hover:bg-zinc-700">
             <summary
                 class="flex cursor-pointer list-none items-center justify-between py-4 text-2xl font-medium text-secondary-900 group-open:text-primary-500">
                 How much does Netflix cost?
@@ -203,7 +203,7 @@ You can watch as much as you want, whenever you want without a single commercial
             <div class="pb-4 text-secondary-500">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from Rs 1,100 to Rs 250 a month. No extra costs, no contracts.
 </div>
         </details>
-        <details class="group bg-stone-700 mb-2 border-none">
+        <details class="group bg-zinc-800 mb-2 p-4 border-none hover:bg-zinc-700">
             <summary
                 class="flex cursor-pointer list-none items-center justify-between py-4 text-2xl font-medium text-secondary-900 group-open:text-primary-500">
                 Where can I watch?
@@ -223,7 +223,7 @@ You can watch as much as you want, whenever you want without a single commercial
 You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</div>
         </details>
        
-        <details class="group bg-stone-700 mb-2 border-none">
+        <details class="group bg-zinc-800 mb-2 p-4 border-none hover:bg-zinc-700">
             <summary
                 class="flex cursor-pointer list-none items-center justify-between py-4 text-2xl font-medium text-secondary-900 group-open:text-primary-500">
                 How do I cancel?
@@ -242,7 +242,7 @@ You can also download your favorite shows with the iOS, Android, or Windows 10 a
 </div>
         </details>
 
-        <details class="group bg-stone-700 mb-2 border-none">
+        <details class="group bg-zinc-800 mb-2 p-4 border-none hover:bg-zinc-700">
             <summary
                 class="flex cursor-pointer list-none items-center justify-between py-4 text-2xl font-medium text-secondary-900 group-open:text-primary-500">
                 What can I watch on Netflix?
@@ -262,7 +262,7 @@ You can also download your favorite shows with the iOS, Android, or Windows 10 a
 </div>
         </details>
 
-        <details class="group bg-stone-700 mb-2 border-none">
+        <details class="group bg-zinc-800 mb-2 p-4 border-none hover:bg-zinc-700">
             <summary
                 class="flex cursor-pointer list-none items-center justify-between py-4 text-2xl font-medium text-secondary-900 group-open:text-primary-500">
                 Is Netflix good for kids?
